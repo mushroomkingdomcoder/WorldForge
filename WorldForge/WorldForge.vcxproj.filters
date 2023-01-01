@@ -5,13 +5,241 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{c9775b8a-38f6-4cf8-9ee4-a479091f456f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders">
+      <UniqueIdentifier>{84510442-1e4b-42a9-b3de-793843d41a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Camera">
+      <UniqueIdentifier>{ff77d1f2-11a6-4e3d-b7c9-7204db66af2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\SVGs">
+      <UniqueIdentifier>{317d168a-ad78-44b9-81b1-bf74402c5c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{36506c24-2685-42f9-a507-c612f8c7cd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{ad6c198a-7f44-49a7-9da7-a4203c808cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4e360ae8-d8c5-425d-ab80-5d2b6909260b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders\Vertex">
+      <UniqueIdentifier>{1d658c31-d4b3-420f-a6b8-af9967bec6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shaders\Pixel">
+      <UniqueIdentifier>{52e0be08-e38b-46e9-b307-a599efdadfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Bitmap">
+      <UniqueIdentifier>{26aa23de-5ee3-456f-bd61-f6ef7bc1ae87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDCCamera2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldForge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h">
+      <Filter>Graphics\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseException.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Graphics\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Graphics\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="NDCCamera2D.h">
+      <Filter>Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SVG.h">
+      <Filter>Graphics\SVGs</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformable.h">
+      <Filter>Graphics\SVGs</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeWriter.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicText.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Includes.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BrightnessPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="CircularWindowPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="DefPixelShader.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="DirectionalLightPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="FlashlightPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="HFlipPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="HVFlipPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="InverseColorPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="MosaicPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="PointLightPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="RectWindowPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="SilhouettePS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="VFlipPS.hlsl">
+      <Filter>Graphics\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="TransformVS.hlsl">
+      <Filter>Graphics\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="DefVertexShader.hlsl">
+      <Filter>Graphics\Shaders\Vertex</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
